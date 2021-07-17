@@ -5,6 +5,8 @@
 //  Created by Anton Pomozov on 17.07.2021.
 //
 
-import Foundation
+import UIKit
 
-public protocol ViewModel {}
+public protocol ViewModel {
+    associatedtype VC: UIViewController
+}
